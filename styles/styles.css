@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navwrapp ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navwrapp ul li {
+    list-style-type: none;
+    padding: 2rem;
+}
+.navwrapp ul li a{
+    text-decoration: none;
+    color: beige;
+}
+.wrapper-and-text2{
+    display: inline-flex;
+
+}
+.wrapper{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 50%;
+    position: relative;
+}
+.image img{
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+.text{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity:0;
+    transition: 0.6s;
+}
+.text:hover{
+    opacity: 1;
+
+}
+.text h1, .text h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+
+/*Gradient background*/
+.gradient-background {
+    background: linear-gradient(148deg,#fc7500,#35cc33,#e22718,#fef981,#7d5ac1);
+    background-size: 300% 300%;
+    animation: gradient-animation 20s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
