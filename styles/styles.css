@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: cursive;
+    font-size: 20px;
+
 }
 
 .navwrapp ul {
@@ -40,6 +43,7 @@
     margin: auto;
 
 }
+
 .text{
     font-size: 1.5em;
     text-align: center;
@@ -65,11 +69,13 @@
     font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
     
+    
 }
 
 .text2{
     display: flex;
     align-items: center;
+    text-align: justify;
     width: 50%;
     padding-right: 10vw ;
 
@@ -79,7 +85,7 @@
 }
 .list_wrapper{
     padding-left: 3em;
-    width: 50%;
+    width: 65%;
 }
 .list_wrapper h3{
     text-align: center;
@@ -88,7 +94,7 @@
 
 .list_wrapper ul li {
     width: 100%;
-    padding: 1em;
+    padding: 0em;
     list-style-type: none;
     display: inline-grid;
 }
@@ -102,11 +108,15 @@
 .form_wrapper{
     display: flex;
     align-items: center;
-    padding-left: 10em;
+    padding-left: 5em;
     
 }
 .form_wrapper form{
     background: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 310px;
     
 }
 /*Gradient background*/
@@ -115,7 +125,16 @@
     background-size: 300% 300%;
     animation: gradient-animation 20s ease infinite;
   }
-  
+
+  .footer{
+    text-align: center;
+    text-decoration:underline;
+    color: rgb(42, 1, 80);
+  }
+  #link2{
+    font-size: 40px;
+  }
+
   @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
