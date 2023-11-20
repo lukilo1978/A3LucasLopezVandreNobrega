@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family:Trirong ;
 }
 .navwrapp ul {
     display: flex;
@@ -103,8 +104,28 @@
 }
 .form_wrapper form{
     background: rgba(0,0,0,0.4);
+    display: grid;
+    text-align: center;
     
 }
+.form_wrapper form h2{
+    text-align: center;
+    
+}
+.form_wrapper form label{
+    padding: 1em;
+
+}
+input[type="text"], input[type="number"], input[type="email"]{
+    background-color: rgba(0,0,0,0.0);
+    text-align: center;
+}
+input[type="submit"]{
+    padding: 1em;
+    background-color:coral;
+
+}
+
 /*Gradient background*/
 .gradient-background {
     background: linear-gradient(148deg,#fc7500,#35cc33,#e22718,#fef981,#7d5ac1);
