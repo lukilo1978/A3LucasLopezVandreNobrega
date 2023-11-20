@@ -2,9 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: cursive;
-    font-size: 20px;
-
 }
 .navwrapp ul {
     display: flex;
@@ -22,17 +19,15 @@
 }
 .wrapper-and-text2{
     display: inline-flex;
-
 }
 .wrapper{
+    padding: 2em;
     width: 50%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* .image{
-    width: 80%;
 .image{
     width: 50%;
     position: relative;
@@ -42,15 +37,14 @@
     display: block;
     margin: auto;
 
-} */
-
+}
 .text{
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     position:absolute;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,19 +54,18 @@
 }
 .text:hover{
     opacity: 1;
+    font-size: 1em;
 
 }
 .text h1, .text h3 {
     font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
     
-    
 }
 
 .text2{
     display: flex;
     align-items: center;
-    text-align: justify;
     width: 50%;
     padding-right: 10vw ;
 
@@ -82,7 +75,7 @@
 }
 .list_wrapper{
     padding-left: 3em;
-    width: 65%;
+    width: 50%;
 }
 .list_wrapper h3{
     text-align: center;
@@ -91,7 +84,7 @@
 
 .list_wrapper ul li {
     width: 100%;
-    padding: 0em;
+    padding: 1em;
     list-style-type: none;
     display: inline-grid;
 }
@@ -105,59 +98,20 @@
 .form_wrapper{
     display: flex;
     align-items: center;
-    padding-left: 5em;
+    padding-left: 10em;
     
 }
 .form_wrapper form{
     background: rgba(0,0,0,0.4);
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 310px;
     
 }
-#Photos{
-    display: flex;
-    width: 800px;
-    height: 600px;
-    margin: auto;
-    padding-top: 5%;
-} 
-#Photos img{
-
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-#Photos img:hover{
-    cursor:pointer;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-    padding-top: 30px;
-    
-}
-
-
-
 /*Gradient background*/
 .gradient-background {
-    background: linear-gradient(148deg,#fc7500,#0d4497,#e22718,#fef981,#7d5ac1);
+    background: linear-gradient(148deg,#fc7500,#35cc33,#e22718,#fef981,#7d5ac1);
     background-size: 300% 300%;
     animation: gradient-animation 20s ease infinite;
   }
-
-  .footer{
-    text-align: center;
-    text-decoration:underline;
-    color: rgb(42, 1, 80);
-  }
-  #link2{
-    font-size: 40px;
-  }
-
+  
   @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
