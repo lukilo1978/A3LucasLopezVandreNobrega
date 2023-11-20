@@ -6,7 +6,6 @@
     font-size: 20px;
 
 }
-
 .navwrapp ul {
     display: flex;
     align-items: center;
@@ -26,7 +25,6 @@
 
 }
 .wrapper{
-    padding: 2em;
     width: 50%;
     height: 50%;
     display: flex;
@@ -35,6 +33,8 @@
 }
 /* .image{
     width: 80%;
+.image{
+    width: 50%;
     position: relative;
 }
 .image img{
@@ -45,14 +45,12 @@
 } */
 
 .text{
-    font-size: 1.5em;
-    text-align: center;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     position:absolute;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +60,6 @@
 }
 .text:hover{
     opacity: 1;
-    font-size: 1em;
 
 }
 .text h1, .text h3 {
@@ -142,9 +139,12 @@
     padding-top: 30px;
     
 }
+
+
+
 /*Gradient background*/
 .gradient-background {
-    background: linear-gradient(148deg,#fc7500,#0d4497,#e22718,#fef981,#7d5ac1);
+    background: linear-gradient(148deg,#fc7500,#35cc33,#e22718,#fef981,#7d5ac1);
     background-size: 300% 300%;
     animation: gradient-animation 20s ease infinite;
   }
